@@ -22,7 +22,7 @@ export default function DragonData({ data, loadDragons }) {
 
   return (
     <Container>
-      <Link to={`dragon/${data.id}`}>
+      <Link to={`dragon/details/${data.id}`}>
         <p>
           <b>Nome:</b> {data.name}
         </p>

@@ -30,6 +30,18 @@ export const ButtonStyle = styled.button`
     justify-content: center;
   }
 
+  &.btn-logout {
+    position: absolute;
+    right: 20%;
+    background-color: #000000;
+    span {
+      color: #ffffff;
+    }
+    @media (max-width: 767px) {
+      right: 5%;
+    }
+  }
+
   img {
     width: 12px;
     height: 12px;

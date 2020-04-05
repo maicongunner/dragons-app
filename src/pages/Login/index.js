@@ -12,7 +12,7 @@ export default function Login() {
   const [senha, setSenha] = useState('');
   const dispatch = useDispatch();
 
-  async function handleSubmit(e) {
+  function handleSubmit(e) {
     e.preventDefault();
     dispatch(actionsLogin.signIn(usuario, senha));
   }
